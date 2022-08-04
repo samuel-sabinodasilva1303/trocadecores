@@ -1,0 +1,48 @@
+body {
+    margin: 120px;
+    background: var(--bg);
+    color: var(--fontColor);
+}
+
+.btn, .slide1 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+  .light-theme {
+    color: #000000;
+    background: #fefefe;
+  }
+
+  :root {
+    --white: #FFFFFF;
+    --black: #000000;
+  }
+
+  .light-theme {
+    text-align: center;
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+  }
+  
+  .dark-theme {
+    text-align: center;
+    --bg: var(--black);
+    --fontColor: var(--white);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+  }
+
+  .btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
